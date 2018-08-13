@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 class GreeterTest {
 
 	@Test
-	final void testSayHello_Success() {
-		
+	//final void testSayHello_Success() {
+	public void testSayHello_Success() {
 		
 		Greeter gt = new Greeter(); 
 		 assertEquals("Hello world!", gt.sayHello());
