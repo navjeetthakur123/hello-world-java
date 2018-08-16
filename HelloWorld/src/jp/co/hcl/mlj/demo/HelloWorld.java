@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class HelloWorld {
 
-	public static void main(String[] args) //throws  Exception{
-	{
+	public static void main(String[] args) throws  Exception{
+	//{
 		// TODO Auto-generated method stub
 		double d = 1.1;
 		BigDecimal bd1 = new BigDecimal(d); 
